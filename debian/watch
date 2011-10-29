@@ -1,0 +1,2 @@
+version=3
+http://googlecode.debian.net/p/gnome2-globalmenu/ gnome-globalmenu-(\d+.*)\.tar\.gz

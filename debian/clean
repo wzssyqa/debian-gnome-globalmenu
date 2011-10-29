@@ -1,0 +1,12 @@
+#intltoolize
+po/Makefile.in.in
+po/Makefile.in
+po/Makefile
+autotools/intltool.m4
+po/POTFILES
+intltool-extract.in
+intltool-merge.in
+intltool-update.in
+po/stamp-it
+
+src/*.stamp

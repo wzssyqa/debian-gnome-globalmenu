@@ -1,0 +1,11 @@
+gnome-globalmenu (0.9~s20110928git5b91c63c94-1) oneiric; urgency=low
+
+  * new upstream commit: work with gnome 3.2.
+
+ -- YunQiang Su <wzssyqa@gmail.com>  Fri, 30 Sep 2011 01:39:55 +0800
+
+gnome-globalmenu (0.9~gitba924c3d97-1) experimental; urgency=low
+
+  * Initial release (Closes: #641699).
+
+ -- YunQiang Su <wzssyqa@gmail.com>  Thu, 15 Sep 2011 11:10:36 +0800

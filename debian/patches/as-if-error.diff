@@ -1,0 +1,53 @@
+Index: gnome-globalmenu/configure.ac
+===================================================================
+--- gnome-globalmenu.orig/configure.ac	2011-09-30 01:47:24.844169531 +0800
++++ gnome-globalmenu/configure.ac	2011-09-30 01:48:33.188508436 +0800
+@@ -40,25 +40,19 @@
+ 
+ AC_ARG_VAR(EXTDIR, AS_HELP_STRING([EXTDIR], [directory to install the extension]))
+ 
+-AS_IF([test "x$EXTDIR" == "x"],
+-    [EXTDIR="$datadir/gnome-shell/extensions"],
+-    [])
++EXTDIR="$datadir/gnome-shell/extensions"
+ 
+ AC_SUBST(EXTDIR)
+ 
+ AC_ARG_VAR(GSCHEMASDIR, AS_HELP_STRING([GSCHEMASDIR], [directory to install the gschema]))
+ 
+-AS_IF([test "x$GSCHEMASDIR" == "x"],
+-    [GSCHEMASDIR="$datadir/glib-2.0/schemas"],
+-    [])
++GSCHEMASDIR="$datadir/glib-2.0/schemas"
+ 
+ AC_SUBST(GSCHEMASDIR)
+ 
+ AC_ARG_VAR(SERVICESDIR, AS_HELP_STRING([SERVICESDIR], [directory to install the dbus service]))
+ 
+-AS_IF([test "x$SERVICESDIR" == "x"],
+-    [SERVICESDIR="$datadir/dbus-1/services"],
+-    [])
++SERVICESDIR="$datadir/dbus-1/services"
+ 
+ AC_SUBST(SERVICESDIR)
+ GLIB_GSETTINGS
+@@ -82,17 +76,13 @@
+ 
+ AC_ARG_VAR(GTK3_MODULES_DIR, AS_HELP_STRING([GTK3_MODULES_DIR], [directory to install the gtk3 plugin module]))
+ 
+-AS_IF([test "x$GTK3_MODULES_DIR" == "x"],
+-    [GTK3_MODULES_DIR="$libdir/gtk-3.0/modules"],
+-    [])
++GTK3_MODULES_DIR="$libdir/gtk-3.0/modules"
+ 
+ AC_SUBST(GTK3_MODULES_DIR)
+ 
+ AC_ARG_VAR(GTK2_MODULES_DIR, AS_HELP_STRING([GTK2_MODULES_DIR], [directory to install the gtk2 plugin module]))
+ 
+-AS_IF([test "x$GTK2_MODULES_DIR" == "x"],
+-    [GTK2_MODULES_DIR="$libdir/gtk-2.0/modules"],
+-    [])
++GTK2_MODULES_DIR="$libdir/gtk-2.0/modules"
+ 
+ AC_SUBST(GTK2_MODULES_DIR)
+ # output

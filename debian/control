@@ -1,0 +1,32 @@
+Source: gnome-globalmenu
+Section: gnome
+Priority: optional
+Maintainer: YunQiang Su <wzssyqa@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), dh-autoreconf, intltool, valac-0.12, 
+		libvala-0.12-dev, libgtk-3-dev, gobject-introspection,
+		libgirepository1.0-dev, libgtk2.0-dev, autotools-dev
+Standards-Version: 3.9.2
+Homepage: http://code.google.com/p/gnome2-globalmenu
+
+Package: gnome-globalmenu
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: globally-shared menu bar in your desktop session
+ Introduces document-oriented concepts into GNOME, and improves GNOME's
+ respect for Fitts's law. Most GTK applications work just fine with 
+ Global Menu.
+ .
+ The new 0.9.x branch is based on GNOME 3.
+
+Package: gnome-globalmenu-gtk2
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: globally-shared menu bar in your desktop session
+ Introduces document-oriented concepts into GNOME, and improves GNOME's
+ respect for Fitts's law. Most GTK applications work just fine with 
+ Global Menu.
+ .
+ The new 0.9.x branch is based on GNOME 3.
+ .
+ This package contains GTK2+ modules, to make it not must to depend on
+ gtk2.
