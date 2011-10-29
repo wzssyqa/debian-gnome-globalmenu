@@ -1,3 +1,10 @@
+gnome-globalmenu (0.9~s20111020gite4502d33b2-1) oneiric; urgency=low
+
+  * New upstream commit:
+    do not simulate the show() method if the menushell is a menubar 
+
+ -- YunQiang Su <wzssyqa@gmail.com>  Sat, 29 Oct 2011 16:44:40 +0800
+
 gnome-globalmenu (0.9~s20110928git5b91c63c94-1) oneiric; urgency=low
 
   * new upstream commit: work with gnome 3.2.
