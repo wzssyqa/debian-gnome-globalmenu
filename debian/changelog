@@ -1,3 +1,9 @@
+gnome-globalmenu (0.9~s20111020gite4502d33b2-2) oneiric; urgency=low
+
+  * fix compatible version 3.2.0 -> 3.2.
+
+ -- YunQiang Su <wzssyqa@gmail.com>  Mon, 07 Nov 2011 04:12:26 +0800
+
 gnome-globalmenu (0.9~s20111020gite4502d33b2-1) oneiric; urgency=low
 
   * New upstream commit:
